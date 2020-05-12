@@ -92,6 +92,7 @@ p {
     font-weight: 400;
     font-size: 17px;
     margin-left: 80px;
+    line-height: 0.5;
 }
 
 #header2 {
@@ -122,4 +123,25 @@ p {
 #current-Page {
     padding-left: 90px;
     padding-bottom: 20px;
+}
+
+/* styles for background color website */
+#random-color {
+    background-color: lightpink;
+}
+
+#button {
+    background-color: orangered;
+    color: white;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 600px;
+    margin-top: 50px;
+    font-weight: 450;
+    border-radius: 15px;
+    border-color: orangered;
+    cursor: pointer;
+    outline: none;
 }
