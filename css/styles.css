@@ -137,11 +137,15 @@ p {
     width: 250px;
     text-align: center;
     font-size: 40px;
-    margin-left: 600px;
-    margin-top: 50px;
     font-weight: 450;
     border-radius: 15px;
     border-color: orangered;
     cursor: pointer;
     outline: none;
+    overflow: hidden;
+    top: 150px;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    position: fixed;
 }
