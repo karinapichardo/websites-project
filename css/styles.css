@@ -137,11 +137,71 @@ p {
     width: 250px;
     text-align: center;
     font-size: 40px;
-    margin-left: 600px;
-    margin-top: 50px;
     font-weight: 450;
     border-radius: 15px;
     border-color: orangered;
     cursor: pointer;
     outline: none;
+    overflow: hidden;
+    top: 150px;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    position: fixed;
+}
+
+/* styles for random word generator website */
+#container4 {
+    width: 80%;
+    height: 200px;
+    width: 700px;
+    background-color: darkseagreen;
+    overflow: hidden;
+    top: 150px;
+    left: 45%;
+    margin-top: -5px;
+    margin-left: -275px;
+    position: fixed;
+    box-shadow: 0 10px 10px #555;
+    font-size: 100px;
+    text-align: center;
+    font-family: optima;
+    text-shadow: 0 5px 20px palevioletred;
+    font-weight: 500;
+}
+
+#text {
+    text-shadow: 0 2px 1px #555;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: palevioletred;
+    outline: none;
+    overflow: hidden;
+    top: 150px;
+    left: 45.5%;
+    margin-top: -100px;
+    margin-left: -100px;
+    position: fixed;
+}
+
+#round-button {
+    background-color: forestgreen;
+    color: white;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    box-shadow: 0 2px 10px palevioletred;
+    border-color: black;
+    border-width: 8px;
+    border-radius: 200px;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    top: 150px;
+    left: 50;
+    margin-top: 350px;
+    margin-left: 660px;
 }
