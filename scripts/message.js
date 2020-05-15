@@ -6,8 +6,6 @@ function sendMessage() {
     sendButton.addEventListener('click', function () {
         var content = messageIn.value;
         messageOut.innerHTML = content;
-        //        messageIn.value = '';
-
     })
 }
 
