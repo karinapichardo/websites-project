@@ -1,0 +1,57 @@
+body {
+    background-color: palegoldenrod;
+}
+
+h1,
+h2,
+h4 {
+    text-align: center;
+    font-family: monospace;
+    margin-top: 30px;
+    color: palevioletred;
+}
+
+h4 {
+    margin-top: -15px;
+}
+
+form {
+    margin: 50 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: auto;
+}
+
+input {
+    font: 1em monospace;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px dotted;
+}
+
+.button {
+    padding-left: 160px;
+}
+
+button {
+    margin-left: .3em;
+    width: 100px;
+    cursor: pointer;
+}
