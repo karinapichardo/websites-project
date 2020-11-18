@@ -1,4 +1,7 @@
 function toScottishScreaming(inputStr) {
     var inputStr = document.getElementById("sentence").value;
-    alert(inputStr.replace(/[aiou]/gi, 'e').toUpperCase());
+    var result = inputStr.replace(/[aiou]/gi, 'e').toUpperCase();
+
+    document.getElementById("resultText").innerHTML = result;
+    event.preventDefault();
 }
