@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/profit.css">
+    <script defer src="./scripts/profit.js"></script>
+    <title>Profit</title>
+</head>
+
+<body>
+    <header>
+        <h2>
+            You work for a manufacturer, and have been asked to calculate the total profit made on the sales of a product.
+            <br>
+            Enter the cost price per unit (in dollars), sell price per unit (in dollars), and the starting inventory.
+            <br>
+            I'll calculate the total profit made, rounded to the nearest dollar.
+        </h2>
+    </header>
+    <br>
+    <hr>
+    <form>
+        <ul>
+            <li>
+                <label for="company-name">Company Name:</label>
+                <input type="text" id="companyName">
+            </li>
+            <li>
+                <label for="cost-price">Cost Per Unit:</label>
+                <input type="decimal" id="costPrice">
+            </li>
+            <li>
+                <label for="sell-price">Sell Price Per Unit:</label>
+                <input type="decimal" id="sellPrice">
+            </li>
+            <li>
+                <label for="inventory">Inventory:</label>
+                <input type="number" id="inventory">
+            </li>
+            <li class="button">
+                <button type="submit" id="submit" onclick="profit();">Calculate</button>
+            </li>
+        </ul>
+    </form>
+    <hr>
+    <h2 id="result"></h2>
+    <p>Thank You!:)</p>
+</body></html>

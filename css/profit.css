@@ -1,0 +1,48 @@
+body {
+    background-color: palegreen;
+    color: darksalmon;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+h2,
+p {
+    text-align: center;
+}
+
+form {
+    margin-top: 35px;
+    margin-left: 480px;
+    margin-bottom: 35px;
+    padding: 0;
+    border: 2px dotted;
+    width: 500px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+input {
+    font-size: 1em;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+button {
+    margin-left: .3em;
+    width: 100px;
+    cursor: pointer;
+}
+
+.button {
+    padding-left: 90px;
+    margin-top: 10px;
+}
