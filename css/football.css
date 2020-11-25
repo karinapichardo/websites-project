@@ -1,0 +1,66 @@
+body {
+    background-color: indianred;
+    color: white;
+    margin-top: 80px;
+}
+
+.color {
+    border-top-width: 2px;
+    border-bottom-style: dashed;
+    color: bisque;
+}
+
+h1 {
+    color: bisque;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+ul {
+    list-style: none;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+li {
+    font-size: 20px;
+}
+
+input {
+    font-size: 1em;
+    margin-left: 5px;
+    margin-right: 20px;
+    width: 100px;
+    margin-top: 15px;
+    outline: none;
+}
+
+button {
+    margin-left: 250px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:hover {
+    background-color: bisque;
+}
+
+input:hover {
+    background-color: bisque;
+}
+
+img {
+    height: 205px;
+    width: 195px;
+    padding-left: 100px;
+    margin-bottom: -140px;
+}
