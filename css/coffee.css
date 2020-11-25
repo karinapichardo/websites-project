@@ -1,0 +1,64 @@
+body {
+    background-color: rosybrown;
+    color: pink;
+    margin-top: 120px;
+}
+
+hr {
+    border-color: saddlebrown;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 200;
+}
+
+h1 {
+    color: lightsalmon;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-left: 500px;
+}
+
+li {
+    font-size: 20px;
+}
+
+input {
+    font-size: 1em;
+    color: saddlebrown;
+    cursor: pointer;
+}
+
+
+button {
+    margin-left: 130px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: saddlebrown;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightsalmon;
+    outline: none;
+    border-color: lightsalmon;
+}
+
+img {
+    height: 130px;
+    width: 100px;
+    margin-left: 680px;
+}
+
+#coffee2 {
+    height: 50px;
+    width: 30px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: -5px;
+}
