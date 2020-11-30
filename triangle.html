@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/triangle.css">
+    <script defer src="./scripts/triangle.js"></script>
+    <title>Triangle Angles</title>
+</head>
+
+<body>
+    <header>
+        <h1>A triangle consists of <i>3</i> degrees<br>
+            <hr>
+            An acute angle is <i>less</i> than <i>90</i> degrees<br>
+            A right angle is <i>exactly</i> <i>90</i> degrees<br>
+            An obtuse angle is <i>greater</i> than <i>90</i> degrees (but <i>less</i> than <i>180</i> degrees)<br>
+        </h1>
+    </header>
+    <hr>
+    <h2>Enter 2 of the 3 degrees and I will classify the missing angle for you as either "<u>acute</u>", "<u>right</u>", or "<u>obtuse</u>" based on the degrees provided</h2>
+    <form>
+        <ul>
+            <li>
+                <label for="firstDegree">First Degree:</label>
+                <input type="number" id="firstDegree">
+            </li>
+            <li>
+                <label for="secondDegree">Second Degree:</label>
+                <input type="number" id="secondDegree">
+            </li>
+            <li>
+                <button type="submit" id="button" onclick="missingAngle();">Enter</button>
+            </li>
+        </ul>
+    </form>
+    <h2 id="result"></h2>
+    <hr>
+
+</body></html>

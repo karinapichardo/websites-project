@@ -1,0 +1,69 @@
+body {
+    background-color: aquamarine;
+    margin-top: 50px;
+    outline: none;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+u,
+i {
+    color: hotpink;
+    font-weight: 300;
+}
+
+form {
+    border-radius: 1em;
+    margin: 50 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid hotpink;
+    margin-left: 500px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+label {
+    display: inline-block;
+}
+
+
+input {
+    font: 1em monospace;
+    width: 80px;
+    box-sizing: border-box;
+    border: 1px solid;
+    outline: none;
+}
+
+input:hover {
+    background-color: hotpink;
+    color: white;
+}
+
+button {
+    margin-left: 150px;
+    width: 75px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: hotpink;
+    color: white;
+    border-color: hotpink;
+}
+
+form li + li {
+    margin-top: 1em;
+}
