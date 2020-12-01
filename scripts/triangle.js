@@ -9,4 +9,21 @@ function missingAngle(firstDegree, secondDegree) {
         (firstDegree + secondDegree < 90) ? 'The missing angle is an obtuse angle.' :
         null;
     event.preventDefault();
+
+
+    document.getElementById('right-triangle').style.display = 'none';
+    document.getElementById('obtuse-triangle').style.display = 'none';
+    document.getElementById('acute-triangle').style.display = 'none';
+
+    if (firstDegree + secondDegree > 180) {
+        document.getElementById('right-triangle').style.display = 'none';
+        document.getElementById('obtuse-triangle').style.display = 'none';
+        document.getElementById('acute-triangle').style.display = 'none';
+    } else if (firstDegree + secondDegree > 90) {
+        document.getElementById('acute-triangle').style.display = 'block';
+    } else if (firstDegree + secondDegree === 90) {
+        document.getElementById('right-triangle').style.display = 'block';
+    } else if (firstDegree + secondDegree < 90) {
+        document.getElementById('obtuse-triangle').style.display = 'block';
+    }
 }

@@ -67,3 +67,9 @@ button:hover {
 form li + li {
     margin-top: 1em;
 }
+
+img {
+    height: 200px;
+    width: 240px;
+    margin-left: 600px;
+}
