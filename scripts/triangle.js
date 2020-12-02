@@ -10,15 +10,13 @@ function missingAngle(firstDegree, secondDegree) {
         null;
     event.preventDefault();
 
-
-    document.getElementById('right-triangle').style.display = 'none';
-    document.getElementById('obtuse-triangle').style.display = 'none';
-    document.getElementById('acute-triangle').style.display = 'none';
+    var imgDisplay = document.querySelectorAll('.images')
+    for (var i = 0; i < imgDisplay.length; i++) {
+        imgDisplay[i].style.display = 'none';
+    }
 
     if (firstDegree + secondDegree > 180) {
-        document.getElementById('right-triangle').style.display = 'none';
-        document.getElementById('obtuse-triangle').style.display = 'none';
-        document.getElementById('acute-triangle').style.display = 'none';
+        imgDisplay;
     } else if (firstDegree + secondDegree > 90) {
         document.getElementById('acute-triangle').style.display = 'block';
     } else if (firstDegree + secondDegree === 90) {
