@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/funMath.css">
+    <script defer src="./scripts/funMath.js"></script>
+    <title>Having Fun With Math</title>
+</head>
+
+<body>
+    <header>
+        <h1>Let's Do Some Math!</h1>
+        <h2>Type in <u>two</u> numbers and let's figure out the next <br>
+            number greater than those two numbers but with a catch...<br>
+            the number has to be <u>divisible</u> by the second number you choose.</h2>
+    </header>
+    <hr>
+    <ul>
+        <li>
+            <label for="firstNumber">First Number:</label>
+            <input type="number" id="firstNumber">
+        </li>
+        <li>
+            <label for="secondNumber">Second Number:</label>
+            <input type="number" id="secondNumber">
+        </li>
+        <li>
+            <button type="submit" onclick="divisibleBy();">GO</button>
+        </li>
+    </ul>
+
+    <h2 id="result"></h2>
+    <hr>
+</body></html>

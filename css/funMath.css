@@ -1,0 +1,36 @@
+body {
+    background-color: darkslateblue;
+    color: white;
+    margin-top: 150px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 550px;
+}
+
+input {
+    width: 50px;
+    height: 20px;
+    font-size: 1em;
+    outline: none;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+button:hover {
+    background-color: darkslateblue;
+    color: white;
+}
