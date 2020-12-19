@@ -1,0 +1,57 @@
+body {
+    margin: 100px;
+    background-color: aquamarine;
+    color: brown;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 130px;
+    margin-left: 950px;
+    margin-top: -200px;
+    margin-bottom: 35px;
+}
+
+#ice-cream {
+    width: 150px;
+    height: 160px;
+    margin-left: 150px;
+    margin-bottom: -170px;
+}
+
+button {
+    height: 45px;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-size: 1em;
+    color: brown;
+    background-color: pink;
+    border-color: pink;
+}
+
+button:hover {
+    background-color: #f5d658;
+    color: brown;
+    border-color: #f5d658;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+    margin-left: 480px;
+}
+
+.color-line {
+    border-color: pink;
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
