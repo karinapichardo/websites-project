@@ -1,0 +1,62 @@
+body {
+    margin-top: 50px;
+}
+
+#logo {
+    margin: auto;
+    display: block;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+ul {
+    text-align: center;
+}
+
+.menu:active,
+.menu:hover {
+    color: #1bbfac;
+}
+
+#body-img {
+    display: block;
+    margin: auto;
+    margin-top: 55px;
+    width: 100%;
+}
+
+figure {
+    text-align: center;
+}
+
+.group-img {
+    display: inline-block;
+    margin-top: 10px;
+    border: 3px solid black;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.group-img:hover {
+    opacity: 1;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    padding: 5px;
+    background-color: #525354;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+}
